@@ -11,6 +11,20 @@ html {
     box-sizing: inherit;
 }
 
+.large_title {
+	font-size: 5em;
+	margin-bottom: 0.1em;
+	line-height: 90%;
+	transition: all 0.6s ease; -webkit-transition: all 0.6s ease;
+}
+
+p {
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 1em;
+	font-size: 1.4em;
+}
+
 .bg {
     /* The image used */
     background-color: #e8e8e8;
