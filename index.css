@@ -11,8 +11,20 @@ html {
     box-sizing: inherit;
 }
 
+#icon {
+	margin-top: 2em;
+	width: 20em;
+	border-radius: 50%;
+	transition: all 0.6s ease; -webkit-transition: all 0.6s ease;
+}
+
+#icon:hover {
+	transform: rotate(360deg); -webkit-transform: rotate(360deg);
+}
+
 .large_title {
 	font-size: 5em;
+	color: #979899;
 	margin-bottom: 0.1em;
 	line-height: 90%;
 	transition: all 0.6s ease; -webkit-transition: all 0.6s ease;
@@ -34,18 +46,6 @@ p {
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: repeat;
-}
-
-.circular {
-    border-radius: 50%;
-    box-shadow: 5px 5px 10px rgba(80, 78, 78, 0.767);
-    padding: 7px;
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
 }
 
 .svg--source {
