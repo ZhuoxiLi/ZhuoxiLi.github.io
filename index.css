@@ -39,7 +39,7 @@ p {
 
 .bg {
     /* The image used */
-    background-color: #e8e8e8;
+    background-color: #f1f3f2;
     animation: bgchange 5s infinite;
     /* Full height */
     height: 100%;
