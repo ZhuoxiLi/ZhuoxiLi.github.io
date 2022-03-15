@@ -83,10 +83,12 @@ p {
     box-shadow: 0 0 8px 0 rgba(50, 50, 50, 0.15);
     border-radius: 30%;
     margin: 1rem;
+    transition: transform 250ms;
 }
 
 .share:hover {
     transition: 250ms;
+    transform: scale(1.2);
     box-shadow: 0 0 24px 0 currentColor;
     fill: currentColor;
 }
@@ -99,14 +101,14 @@ p {
     margin-top: 3rem;
 }
 
-.github:hover,
-.github:focus {
-    background: #000000;
-}
-
 .linkedin:hover,
 .linkedin:focus {
     background: #0e76a8;
+}
+
+.github:hover,
+.github:focus {
+    background: #000000;
 }
 
 .gmail:hover,
