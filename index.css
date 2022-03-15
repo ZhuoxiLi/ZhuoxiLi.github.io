@@ -101,20 +101,15 @@ p {
 
 .github:hover,
 .github:focus {
-    color: #000000;
-}
-
-.stackoverflow:hover,
-.stackoverflow:focus {
-    color: #ef8236;
+    background: #000000;
 }
 
 .linkedin:hover,
 .linkedin:focus {
-    color: #0e76a8;
+    background: #0e76a8;
 }
 
 .gmail:hover,
 .gmail:focus {
-    color: #d44638;
+    background: #d44638;
 }
